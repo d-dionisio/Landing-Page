@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../landingpage/css/landing.css">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="Close Menu"></label>
+
+    <aside class="menu">
+        <div class="menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#home">Logo</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#top3">top 3</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+    <section class="main-bg section ">
+        <div id="home" class="main-content intro-content">
+            <div class="intro-content-text">
+                <h1>Conteúdo da primeira página</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facere quisquam asperiores, saepe
+                    aliquid, magni, illum dicta quasi hic nesciunt explicabo! Veritatis ab distinctio saepe dolore.
+                    Blanditiis exercitationem amet animi.</p>
+            </div>
+            <div class="image-bg">
+                <img src="../landingpage/img/javascript-not-optimized.svg" alt="Logo HTML, CSS, JS">
+            </div>
+        </div>
+    </section>
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h1>Intro ao HTML</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nostrum blanditiis incidunt quisquam
+                magnam, sequi nisi amet nobis aliquid, velit consectetur impedit iste itaque voluptatem consequuntur eos
+                id expedita minima?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptas ut neque nemo molestias quas
+                quasi? Tempore, incidunt maiores! Tempore labore animi laborum, ea id similique sapiente architecto
+                soluta repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo reiciendis possimus quasi repudiandae.
+                Mollitia molestiae quae quam nisi. At aliquid neque rerum! Aut exercitationem amet vero! Nobis
+                reprehenderit obcaecati maiores!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo reiciendis possimus quasi repudiandae.
+                Mollitia molestiae quae quam nisi. At aliquid neque rerum! Aut exercitationem amet vero! Nobis
+                reprehenderit obcaecati maiores!</p>
+        </div>
+    </section>
+    <section class="main-bg section grid-one ">
+        <div id="top3" class="main-content grid-one-content">
+            <h1 class="main-heading">My grid</h1>
+            <p class="main-description">Here are some recent work.</p><br><br>
+            <div class="grid">
+                <article>
+                    <div>
+                        <h3>Teste</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, optio! Deserunt adipisci
+                            dicta modi cupiditate laborum consequuntur voluptatum obcaecati molestias error? Aspernatur
+                            repellat vel quidem libero ut. Vitae, non explicabo!</p>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <h3>Teste</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, optio! Deserunt adipisci
+                            dicta modi cupiditate laborum consequuntur voluptatum obcaecati molestias error? Aspernatur
+                            repellat vel quidem libero ut. Vitae, non explicabo!</p>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <h3>Teste</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, optio! Deserunt adipisci
+                            dicta modi cupiditate laborum consequuntur voluptatum obcaecati molestias error? Aspernatur
+                            repellat vel quidem libero ut. Vitae, non explicabo!</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="section white-bg">
+        <div id="gallery" class="main-content grid-flex">
+            <div>
+                <h1 class="main-gallery">Gallery</h1>
+                <p class="gallery-description">Pequena descrição da galeria.</p>
+            </div>
+            <div class="grid-gallery">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-bg section grid-one ">
+        <div id="work" class="main-content grid-one-content">
+            <h1 class="main-heading">Work</h1>
+            <p class="main-description">Here are some recent work.</p><br><br>
+            <div class="grid">
+                <article>
+                    <div>
+                        <h3>Teste</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, optio! Deserunt adipisci
+                            dicta modi cupiditate laborum consequuntur voluptatum obcaecati molestias error? Aspernatur
+                            repellat vel quidem libero ut. Vitae, non explicabo!</p>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <h3>Teste</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, optio! Deserunt adipisci
+                            dicta modi cupiditate laborum consequuntur voluptatum obcaecati molestias error? Aspernatur
+                            repellat vel quidem libero ut. Vitae, non explicabo!</p>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <h3>Teste</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, optio! Deserunt adipisci
+                            dicta modi cupiditate laborum consequuntur voluptatum obcaecati molestias error? Aspernatur
+                            repellat vel quidem libero ut. Vitae, non explicabo!</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h1>Pricing</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nostrum blanditiis incidunt quisquam
+                magnam, sequi nisi amet nobis aliquid, velit consectetur impedit iste itaque voluptatem consequuntur eos
+                id expedita minima?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptas ut neque nemo molestias quas
+                quasi? Tempore, incidunt maiores! Tempore labore animi laborum, ea id similique sapiente architecto
+                soluta repudiandae.</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Princing table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="main-bg section ">
+        <div id="contact" class="main-content intro-content">
+            <div class="intro-content-text">
+                <h1>Contact</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facere quisquam asperiores, saepe
+                    aliquid, magni, illum dicta quasi hic nesciunt explicabo! Veritatis ab distinctio saepe dolore.
+                    Blanditiis exercitationem amet animi.</p>
+            </div>
+            <div class="image-bg">
+                <img src="../landingpage/img/contact.svg" alt="">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Your e-mail">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit">Send message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer class="white-bg footer">
+        <p><a href="">Feito com <span class="heart">❤</span> por Douglas Dionísio</a> </p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+
+</body>
+
+</html>
